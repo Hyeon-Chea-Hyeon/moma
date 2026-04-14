@@ -1,0 +1,402 @@
+@media  screen and (max-width:1000px) {
+    #wrap{
+        width: 100%;
+    }
+    #head{
+        width: 100%;
+    }
+    #headin{
+        width: 100%;
+        height: 180px;
+        display: flex;
+        flex-direction: column;
+    }
+    #h_logo{
+        margin: 0 auto;
+    }
+    #nav{
+        padding-top: 0;
+        margin: 0 auto;
+        width: 90%;
+    }
+    #nav .info{
+        display: none;
+    }
+    #nav .nav{
+        margin: 0 auto;
+        width: 100%;
+        padding-top: 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    #nav .nav li{
+        font-size: 12px;
+    }
+    #nav .nav li a{
+        font-size: 16px;
+    }
+    #nav .nav li:nth-child(2){
+        display: none;
+    }
+    #mainimg{
+        background: url(../image/main.jpg) no-repeat 50% 0;
+        height: 500px;
+        background-size: cover;
+    }
+
+    #fbanner{
+        width: 100%;
+        background: url(../image/event_family.jpg) no-repeat 50% 0;
+        background-size: cover;
+        height: 150px;
+    }
+    #fbanner .not{
+        height: 150px;
+        padding-top: 0;
+    }
+    #fbanner .not h3{
+        font-size: 24px;
+    }
+    #fbanner .not .fbanner_s span{
+        font-size: 16px;
+    }
+    #fbanner .not .fbanner_s .bannerbtn{
+        width: 150px;
+        height: 50px;
+    }
+    #fbanner .not .fbanner_s .bannerbtn a{
+        width: 150px;
+        height: 50px;
+        font-size: 16px;
+        line-height: 50px;
+    }
+    #fbanner .not .fbanner_s .bannerbtn a:hover{
+        background-color: #050505;
+    }
+    #exhi{
+        width: 100%;
+        height: 600px;
+    }
+    #exhi header{
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    #exhi header h3{
+        font-size: 30px;
+        
+    }
+    #exmn{
+        width: 100%;
+        height: 460px;
+    }
+    #exmn li{
+        width: 48%;
+        height: 460px;
+        
+    }
+    #exmn li figure{
+        width: 100%;
+        height: 460px;
+    }
+    #exmn li img{
+        width: 100%;
+        height: 300px;
+    }
+    #exmn li figcaption .ttl{
+        font-size: 18px;
+        
+    }
+    #exmn li figcaption .sub{
+        font-size: 14px;
+    }
+    
+    #uniq{
+        height: 150px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #uniq h3{
+        width: 240px;
+        font-size: 24px;
+    }
+    #uniq .notice{
+        width: 240px;
+        display: flex;
+        justify-content: flex-end;
+        
+    }
+    #uniq .notice p{
+        width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        text-align: left;
+        font-size: 16px;
+    }
+    #uniq .notice a{
+        float: right;
+        font-size: 16px;
+        padding: 0 0;
+        justify-content: ;
+    }
+
+    #collect{
+        width: 100%;
+        height: 900px;
+        margin-top: 0;
+    }
+    #ttl{
+        width: 240px;
+    }
+    #ttl h3{
+        font-size: 24px;
+    }
+    #ttl span{
+        font-size: 14px;
+    }
+    #collect_b{
+        width: 200px;
+        height: 900px;
+    }
+    #collect_b .section{
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #collect_b .section li{
+        width: 100%;
+        height: 300px;
+    }
+    #collect_b .section li:nth-child(3),#collect_b .section li:nth-child(4){
+        display: none;
+    }
+    #collect_b .section li h4{
+        font-size: 20px;
+    }
+    #collect_b .section li img{
+        height: 250px;
+    }
+    #collect_b > div{
+        width: 100%;
+        height: 50px;
+    }
+    #collect_b > div a{
+        font-size: 16px;
+        width: 200px;
+        height: 20px;
+    }
+
+    #event{
+        width: 100%;
+        height: auto;
+    }
+    #event header{
+        height: 150px;
+    }
+    #event header h3{
+        font-size: 24px;
+    }
+    #event header p{
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    #event_b{
+        width: 100%;
+        height: 550px;
+    }
+    #event_b .limg{
+        width: 100%;
+        height: 550px;
+    }
+    #event_b .limg img{
+        width: 100%;
+        height: 400px;
+    }
+
+    #serv{
+        width: 100%;
+        height: auto;
+        margin-top: 0;
+    }
+    #serv header{
+        width: 100%;
+        height: 150px;
+    }
+    #serv header h3{
+        font-size: 24px;
+    }
+    #serv header p{
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    #serv_b{
+        width: 100%;
+        height: 550px;
+    }
+    #s_lar{
+        width: 100%;
+        height: 550px;
+    }
+    #s_lar img{
+        width: 100%;
+        height: 400px;
+    }
+    #holiday{
+        margin-top: 30px;
+        width: 100%;
+        height: 180px;
+    }
+    #holiday .body{
+        width: 100%;
+        height: 180px;
+    }
+    #holiday .body h3{
+        font-size: 20px;
+        width: 200px;
+    }
+    #holiday .body .sec{
+        width: 280px;
+    }
+    #holiday .body .sec span{
+    }
+    #holiday .body .sec a{
+        font-size: 16px;
+    }
+
+    #idea{
+        width: 100%;
+        height: 600px;
+    }
+    #idea header{
+        height: 150px;
+    }
+    #idea header h3{
+        font-size: 24px;
+    }
+    #idea_b{
+        width: 100%;
+        height: 450px;
+    }
+    #idea_b ul{
+        width: 100%;
+        height: 450px;
+    }
+    #idea_b li{
+        width: 100%;
+        height: 450px;
+    }
+    #idea_b li img{
+        width: 90%;
+        height: auto;
+    }
+    #idea_b li figcaption{
+        width: 90%;
+    }
+
+    #dstore{
+        margin-top: 30px;
+        width: 100%;
+        height: 550px;
+    }
+    #dstore header{
+        height: 100px;
+    }
+    #dstore header h3{
+        font-size: 24px;
+    }
+    #dstore_b{
+        width: 100%;
+        height: 460px;
+    }
+    #dstore_b ul{
+        width: 100%;
+        height: 450px;
+    }
+    #dstore_b li{
+        width: 100%;
+        height: 460px;
+    }
+    #dstore_b li figure{
+        width: 100%;
+        height: 460px;
+    }
+    #dstore_b li img{
+        width: 100%;
+        height: 400px;
+    }
+    #dstore_b li:nth-child(2), #dstore_b li:nth-child(3){
+        display: none;
+    }
+
+    #special{
+        width: 100%;
+        height: 200px;
+    }
+    #special .body{
+        display: flex;
+        flex-direction: column;
+        height: 180px;
+    }
+    #special .body header{
+        margin: 0 auto;
+        width: 90%;
+        height: 150px;
+    }
+    #special .body header h3{
+        text-align: center;
+        font-size: 20px;
+    }
+    #special .body .bb{
+        width: 90%;
+        height: 50px;
+    }
+    #ps{
+        background: url(../image/ps1_banner.jpg) no-repeat 50% 0;
+        height: 500px;
+        background-size: cover;
+    }
+    #thx{
+        padding-top: 30px;
+        height: 250px;
+    }
+
+    #foot{
+        margin-top: 0;
+    }
+
+    #foot_b{
+        width: 100%;
+    }
+    #foot_b ul{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    #f_b li{
+        width: 90%;
+    }
+    #f_b li:last-child{
+        display: none;
+    }
+
+    #f_search .bg{
+        width: 100%;
+    }
+    #f_search .bg .body{
+        width: 90%;
+    }
+
+    #privacy{
+        width: 100%;
+    }
+    #privacy ul{
+        width: 90%;
+    }
+    #privacy li{
+        font-size: 12px;
+    }
+}
